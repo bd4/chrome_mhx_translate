@@ -1,18 +1,25 @@
 # MHX Wiki Translater
 
 Simple chrome extension to translate certain data on the Japanese MHX wiki at
-[wiki.mhxg.org](http://wiki.mhxg.org/). It currently only translates skill
-names in links, for use on the armor pages, e.g.
-[Rare1 Armor List](http://wiki.mhxg.org/data/2301.html)
-and
-[Armor Skill Tree List](http://wiki.mhxg.org/data/2200.html).
+[wiki.mhxg.org](http://wiki.mhxg.org/). It currently translates the following
+if found in link text:
+
+* Skill tree names. Replaces the text with the english and the original
+japanese in parenthesis. For use on the armor pages, e.g.
+[rare1 armor list](http://wiki.mhxg.org/data/2301.html) and
+[skill tree list](http://wiki.mhxg.org/data/2200.html).
+* Monster names. Adds a mouse over tooltip.
+See [large monster list](http://wiki.mhxg.org/data/2501.html).
+* Monster materials. Adds a mouse over tooltip with the monster the material
+comes from.
+See [example weapon page](http://wiki.mhxg.org/ida/226876.html).
 
 ## Installation
 
 The extension is most easily installed from the Chrome Web Store:
 [MHX Wiki Translator](https://chrome.google.com/webstore/detail/mhx-wiki-translator/iejikfjbfhkfmfkcmfbfaicclhlnalck)
 
-# Development
+## Development
 
 To develop and debug the extension, or to get the latest bleeding edge version
 on github that hasn't published to the web store yet, you need to enable
