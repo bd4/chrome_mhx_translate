@@ -36,11 +36,13 @@ for (var i = 0; i < atags.length; i++) {
     // with the monster name.
     no_idx = tag_text.indexOf("\u306e");
     if (no_idx == -1) {
-        continue;
+        // if doesn't contain no kanji, could be full monster name, add tooltip
+        // for that as well
+        tag_title = tag_text;
+    } else {
+        tag_title = tag_text.substr(0, no_idx);
     }
-    tag_title = tag_text.substr(0, no_idx);
     for (var j=0; j<monster_replace_list.length; j++) {
-        // replace on match before 'no' kanji only
         match_text = monster_replace_list[j][0];
         if (tag_title == monster_replace_list[j][0]) {
             console.log("matched monster, setting title attr " + tag_title);
