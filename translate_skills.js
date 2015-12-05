@@ -19,10 +19,9 @@ for (var i = 0; i < atags.length; i++) {
     console.log("href: " + tag.href);
     text = tag.innerText;
     for (var j=0; j<replace_list.length; j++) {
-        text2 = text.replace(replace_list[j][0], replace_list[j][1]);
-        if (text2 != text) {
-            console.log("replace: " + text2);
-            tag.innerText = text2;
+        // replace on exact match only
+        if (text == replace_list[j][0]) {
+            tag.innerText = replace_list[j][1];
             break;
         }
     }
