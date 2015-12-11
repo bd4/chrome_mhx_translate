@@ -13,6 +13,7 @@
       "css": ["override.css"],
       "js": ["mhx_skill_tree_list.js",
              "mhx_monster_replace_list.js",
+             "fix_select_and_menu.js",
              "translate_links.js"],
       "run_at": "document_idle"
     }
