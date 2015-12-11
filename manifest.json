@@ -1,13 +1,16 @@
 {
   "name": "MHX Wiki Translator",
   "description": "Translate armor skill tree names on http://wiki.mhxg.org",
-  "version": "0.2",
+  "version": "0.3",
   "permissions": [
     "http://wiki.mhxg.org/*"
   ],
   "content_scripts": [
     {
-      "matches": ["http://wiki.mhxg.org/*"],
+      "matches": ["http://wiki.mhxg.org/*",
+                  "http://game-cap.com/mhx/*",
+                  "http://mhx-wiki.com/*"],
+      "css": ["override.css"],
       "js": ["mhx_skill_tree_list.js",
              "mhx_monster_replace_list.js",
              "translate_links.js"],
