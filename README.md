@@ -1,8 +1,13 @@
 # MHX Wiki Translater
 
-Simple chrome extension to translate certain data on the Japanese MHX wiki at
-[wiki.mhxg.org](http://wiki.mhxg.org/). It currently translates the following
-if found in link text:
+Simple chrome extension to translate certain data on Japanese Monster Hunter
+Cross (MHX) wiki sites, including:
+
+* [wiki.mhxg.org](http://wiki.mhxg.org/)
+* [game-cap.com](http://game-cap.com/)
+* [mhx-wiki.com](http://mhx-wiki.com/)
+
+It currently translates the following if found in link text:
 
 * Skill tree names. Replaces the text with the english and the original
 japanese in parenthesis. For use on the armor pages, e.g.
@@ -13,6 +18,9 @@ See [large monster list](http://wiki.mhxg.org/data/2501.html).
 * Monster materials. Adds a mouse over tooltip with the monster the material
 comes from.
 See [example weapon page](http://wiki.mhxg.org/ida/226876.html).
+
+The extension also re-enables text selection and right-click context menu,
+which are disabled by event handlers on some of the sites.
 
 ## Installation
 
