@@ -32,7 +32,6 @@ The extension is most easily installed from the Chrome Web Store:
 
 To develop and debug the extension, or to get the latest bleeding edge version
 on github that hasn't published to the web store yet, you need to enable
-developer mode in the extensions page in chrome; see the "Load your extensions"
-section of Google's
-[Getting Started: Building a Chrome Extension](https://developer.chrome.com/extensions/getstarted)
+developer mode in the extensions page in chrome; see
+[Getting Started: Building a Chrome Extension](https://developer.chrome.com/extensions/getstarted#unpacked)
 for details.
