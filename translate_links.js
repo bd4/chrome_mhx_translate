@@ -21,6 +21,22 @@ for (var i = 0; i < atags.length; i++) {
         continue;
     }
 
+    // match kitchen skill names, replace with english and make title jp
+    for (var j=0; j<kitchen_replace_list.length; j++) {
+        name = kitchen_replace_list[j]["name"];
+        name_jp = kitchen_replace_list[j]["name_jp"];
+        // replace on exact match only
+        if (tag_text == name_jp) {
+            tag.innerText = name;
+            tag.setAttribute("title", name_jp);
+            matched = true;
+            break;
+        }
+    }
+    if (matched) {
+        continue;
+    }
+
     // if the no kanji is in the link, try matching a monster title or monster
     // name to the prefix before the no, and if found add a title attribute
     // with the monster name.

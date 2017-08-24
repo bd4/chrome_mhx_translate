@@ -1,31 +1,55 @@
 monster_replace_list = [
   [
+    "\u731b\u308a\u7206\u305c\u308b\u30d6\u30e9\u30ad\u30c7\u30a3\u30aa\u30b9", 
+    "Raging Brachydios (\u731b\u308a\u7206\u305c\u308b\u30d6\u30e9\u30ad\u30c7\u30a3\u30aa\u30b9)"
+  ], 
+  [
+    "\u6e3e\u6c8c\u306b\u547b\u304f\u30b4\u30a2\u30fb\u30de\u30ac\u30e9", 
+    "Chaotic Gore Magala (\u6e3e\u6c8c\u306b\u547b\u304f\u30b4\u30a2\u30fb\u30de\u30ac\u30e9)"
+  ], 
+  [
     "\u6012\u308a\u55b0\u3089\u3046\u30a4\u30d3\u30eb\u30b8\u30e7\u30fc", 
     "Savage Deviljho (\u6012\u308a\u55b0\u3089\u3046\u30a4\u30d3\u30eb\u30b8\u30e7\u30fc)"
   ], 
   [
+    "\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30ea\u30f4\u30a9\u30eb\u30c8", 
+    "Blue Thunder Lord Astalos (\u9752\u96fb\u4e3b\u30e9\u30a4\u30bc\u30af\u30b9)"
+  ], 
+  [
+    "\u93a7\u88c2\u30b7\u30e7\u30a6\u30b0\u30f3\u30ae\u30b6\u30df", 
+    "Armor Shredder Shogun Ceanataur (\u93a7\u88c2\u30b7\u30e7\u30a6\u30b0\u30f3\u30ae\u30b6\u30df)"
+  ], 
+  [
     "\u8352\u9264\u722a\u30c6\u30a3\u30ac\u30ec\u30c3\u30af\u30b9", 
-    "Ruinous Hook Claw Tigrex (\u8352\u9264\u722a\u30c6\u30a3\u30ac\u30ec\u30c3\u30af\u30b9)"
+    "Grimclaw Tigrex (\u8352\u9264\u722a\u30c6\u30a3\u30ac\u30ec\u30c3\u30af\u30b9)"
   ], 
   [
     "\u77db\u7815\u30c0\u30a4\u30df\u30e7\u30a6\u30b6\u30b6\u30df", 
-    "Spearbreaker Daimyo Hermitaur (\u77db\u7815\u30c0\u30a4\u30df\u30e7\u30a6\u30b6\u30b6\u30df)"
+    "Stonefist Hermitaur (\u77db\u7815\u30c0\u30a4\u30df\u30e7\u30a6\u30b6\u30b6\u30df)"
+  ], 
+  [
+    "\u30df\u30e9\u30dc\u30ec\u30a2\u30b9\uff08\u7d05\u9f8d\uff09", 
+    "Crimson Fatalis (\u30df\u30e9\u30dc\u30ec\u30a2\u30b9\uff08\u7d05\u9f8d\uff09)"
+  ], 
+  [
+    "\u30df\u30e9\u30dc\u30ec\u30a2\u30b9(\u7956\u9f8d)", 
+    "White Fatalis (\u30df\u30e9\u30dc\u30ec\u30a2\u30b9(\u7956\u9f8d))"
   ], 
   [
     "\u30c7\u30c3\u30c9\u30ea\u30fc\u30d7\u30ea\u30f3\u30bb\u30b9", 
-    "Violet Poison Princess Rathian (\u7d2b\u6bd2\u59eb\u30ea\u30aa\u30ec\u30a4\u30a2)"
+    "Dreadqueen Rathian (\u7d2b\u6bd2\u59eb\u30ea\u30aa\u30ec\u30a4\u30a2)"
   ], 
   [
     "\u96bb\u773c\u30a4\u30e3\u30f3\u30ac\u30eb\u30eb\u30ac", 
-    "One-Eyed Yian Garuga (\u96bb\u773c\u30a4\u30e3\u30f3\u30ac\u30eb\u30eb\u30ac)"
+    "Deadeye Yian Garuga (\u96bb\u773c\u30a4\u30e3\u30f3\u30ac\u30eb\u30eb\u30ac)"
   ], 
   [
     "\u767d\u75be\u98a8\u30ca\u30eb\u30ac\u30af\u30eb\u30ac", 
-    "White Gale Nargacuga (\u767d\u75be\u98a8\u30ca\u30eb\u30ac\u30af\u30eb\u30ac)"
+    "Silverwind Nargacuga (\u767d\u75be\u98a8\u30ca\u30eb\u30ac\u30af\u30eb\u30ac)"
   ], 
   [
     "\u71fc\u6ec5\u5203\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9", 
-    "Incinerating Blade Dinovaldo (\u71fc\u6ec5\u5203\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
+    "Hellblade Glavenus (\u71fc\u6ec5\u5203\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
   ], 
   [
     "\u6fc0\u6602\u3057\u305f\u30e9\u30fc\u30b8\u30e3\u30f3", 
@@ -33,27 +57,39 @@ monster_replace_list = [
   ], 
   [
     "\u30af\u30ea\u30e0\u30be\u30f3\u30fb\u30d9\u30a2\u30fc", 
-    "Crimson Helmet Arzuros (\u7d05\u515c\u30a2\u30aa\u30a2\u30b7\u30e9)"
+    "Redhelm Arzuros (\u7d05\u515c\u30a2\u30aa\u30a2\u30b7\u30e9)"
   ], 
   [
     "\u9ed2\u708e\u738b\u30ea\u30aa\u30ec\u30a6\u30b9", 
-    "Black Flame King Rathalos (\u9ed2\u708e\u738b\u30ea\u30aa\u30ec\u30a6\u30b9)"
+    "Dreadking Rathalos (\u9ed2\u708e\u738b\u30ea\u30aa\u30ec\u30a6\u30b9)"
+  ], 
+  [
+    "\u9752\u96fb\u4e3b\u30e9\u30a4\u30bc\u30af\u30b9", 
+    "Blue Thunder Lord Astalos (\u9752\u96fb\u4e3b\u30e9\u30a4\u30bc\u30af\u30b9)"
+  ], 
+  [
+    "\u93d6\u9b54\u30c7\u30a3\u30a2\u30d6\u30ed\u30b9", 
+    "Massacre Demon Diablos (\u93d6\u9b54\u30c7\u30a3\u30a2\u30d6\u30ed\u30b9)"
   ], 
   [
     "\u91d1\u96f7\u516c\u30b8\u30f3\u30aa\u30a6\u30ac", 
-    "Golden Thunder Prince Zinogre (\u91d1\u96f7\u516c\u30b8\u30f3\u30aa\u30a6\u30ac)"
+    "Thunderlord Zinogre (\u91d1\u96f7\u516c\u30b8\u30f3\u30aa\u30a6\u30ac)"
   ], 
   [
     "\u7d2b\u6bd2\u59eb\u30ea\u30aa\u30ec\u30a4\u30a2", 
-    "Violet Poison Princess Rathian (\u7d2b\u6bd2\u59eb\u30ea\u30aa\u30ec\u30a4\u30a2)"
+    "Dreadqueen Rathian (\u7d2b\u6bd2\u59eb\u30ea\u30aa\u30ec\u30a4\u30a2)"
+  ], 
+  [
+    "\u6727\u96a0\u30db\u30ed\u30ed\u30db\u30eb\u30eb", 
+    "Hidden Haze Malfestio (\u6727\u96a0\u30db\u30ed\u30ed\u30db\u30eb\u30eb)"
   ], 
   [
     "\u5b9d\u7e8f\u30a6\u30e9\u30ac\u30f3\u30ad\u30f3", 
-    "Treasure Clad Uragaan (\u5b9d\u7e8f\u30a6\u30e9\u30ac\u30f3\u30ad\u30f3)"
+    "Crystalbeard Uragaan (\u5b9d\u7e8f\u30a6\u30e9\u30ac\u30f3\u30ad\u30f3)"
   ], 
   [
     "\u5927\u96ea\u4e3b\u30a6\u30eb\u30af\u30b9\u30b9", 
-    "Heavy Snow Lord Lagombi (\u5927\u96ea\u4e3b\u30a6\u30eb\u30af\u30b9\u30b9)"
+    "Snowbaron Lagombi (\u5927\u96ea\u4e3b\u30a6\u30eb\u30af\u30b9\u30b9)"
   ], 
   [
     "\u30ea\u30aa\u30ec\u30a6\u30b9\u5e0c\u5c11\u7a2e", 
@@ -69,7 +105,7 @@ monster_replace_list = [
   ], 
   [
     "\u30c0\u30fc\u30af\u30cd\u30b9\u30ed\u30fc\u30c9", 
-    "Black Flame King Rathalos (\u9ed2\u708e\u738b\u30ea\u30aa\u30ec\u30a6\u30b9)"
+    "Dreadking Rathalos (\u9ed2\u708e\u738b\u30ea\u30aa\u30ec\u30a6\u30b9)"
   ], 
   [
     "\u30c0\u30a4\u30df\u30e7\u30a6\u30b6\u30b6\u30df", 
@@ -85,15 +121,27 @@ monster_replace_list = [
   ], 
   [
     "\u7d05\u515c\u30a2\u30aa\u30a2\u30b7\u30e9", 
-    "Crimson Helmet Arzuros (\u7d05\u515c\u30a2\u30aa\u30a2\u30b7\u30e9)"
+    "Redhelm Arzuros (\u7d05\u515c\u30a2\u30aa\u30a2\u30b7\u30e9)"
+  ], 
+  [
+    "\u7121\u660e\u306b\u54b2\u304f\u5929\u83ef", 
+    "Heavenly Eye Mizutsune (\u5929\u773c\u30bf\u30de\u30df\u30c4\u30cd)"
   ], 
   [
     "\u60aa\u76f8\u306e\u5343\u4e21\u5f79\u8005", 
-    "Rock Piercing Tetsucabra (\u5ca9\u7a7f\u30c6\u30c4\u30ab\u30d6\u30e9)"
+    "Drilltusk Tetsucabra (\u5ca9\u7a7f\u30c6\u30c4\u30ab\u30d6\u30e9)"
   ], 
   [
     "\u5ca9\u7a7f\u30c6\u30c4\u30ab\u30d6\u30e9", 
-    "Rock Piercing Tetsucabra (\u5ca9\u7a7f\u30c6\u30c4\u30ab\u30d6\u30e9)"
+    "Drilltusk Tetsucabra (\u5ca9\u7a7f\u30c6\u30c4\u30ab\u30d6\u30e9)"
+  ], 
+  [
+    "\u5929\u773c\u30bf\u30de\u30df\u30c4\u30cd", 
+    "Heavenly Eye Mizutsune (\u5929\u773c\u30bf\u30de\u30df\u30c4\u30cd)"
+  ], 
+  [
+    "\u30e9\u30aa\u30b7\u30e3\u30f3\u30ed\u30f3", 
+    "Lao-Shan Lung (\u30e9\u30aa\u30b7\u30e3\u30f3\u30ed\u30f3)"
   ], 
   [
     "\u30d6\u30e9\u30ad\u30c7\u30a3\u30aa\u30b9", 
@@ -125,7 +173,15 @@ monster_replace_list = [
   ], 
   [
     "\u30a2\u30de\u30c4\u30de\u30ac\u30c4\u30c1", 
-    "Amatsumagatsuchi (\u30a2\u30de\u30c4\u30de\u30ac\u30c4\u30c1)"
+    "Amatsu (\u30a2\u30de\u30c4\u30de\u30ac\u30c4\u30c1)"
+  ], 
+  [
+    "\u9280\u5dba\u30ac\u30e0\u30fc\u30c8", 
+    "Silver Ridge Gammoth (\u9280\u5dba\u30ac\u30e0\u30fc\u30c8)"
+  ], 
+  [
+    "\u72c2\u708e\u306e\u9ed2\u9a0e\u58eb", 
+    "Hellblade Glavenus (\u71fc\u6ec5\u5203\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
   ], 
   [
     "\u30f4\u30a9\u30eb\u30ac\u30ce\u30b9", 
@@ -144,16 +200,28 @@ monster_replace_list = [
     "Lagiacrus (\u30e9\u30ae\u30a2\u30af\u30eb\u30b9)"
   ], 
   [
+    "\u30df\u30e9\u30dc\u30ec\u30a2\u30b9", 
+    "Fatalis (\u30df\u30e9\u30dc\u30ec\u30a2\u30b9)"
+  ], 
+  [
     "\u30db\u30ed\u30ed\u30db\u30eb\u30eb", 
-    "Hororohoruru (\u30db\u30ed\u30ed\u30db\u30eb\u30eb)"
+    "Malfestio (\u30db\u30ed\u30ed\u30db\u30eb\u30eb)"
   ], 
   [
     "\u30d6\u30eb\u30d5\u30a1\u30f3\u30b4", 
     "Bullfango (\u30d6\u30eb\u30d5\u30a1\u30f3\u30b4)"
   ], 
   [
+    "\u30d0\u30eb\u30d5\u30a1\u30eb\u30af", 
+    "Barufaruku (\u30d0\u30eb\u30d5\u30a1\u30eb\u30af)"
+  ], 
+  [
     "\u30cf\u30d7\u30eb\u30dc\u30c3\u30ab", 
     "Nibelsnarf (\u30cf\u30d7\u30eb\u30dc\u30c3\u30ab)"
+  ], 
+  [
+    "\u30cd\u30eb\u30b9\u30ad\u30e5\u30e9", 
+    "Nerscylla (\u30cd\u30eb\u30b9\u30ad\u30e5\u30e9)"
   ], 
   [
     "\u30ca\u30eb\u30ac\u30af\u30eb\u30ac", 
@@ -173,7 +241,7 @@ monster_replace_list = [
   ], 
   [
     "\u30c9\u30b9\u30de\u30c3\u30ab\u30a9", 
-    "Great Maccau (\u30c9\u30b9\u30de\u30c3\u30ab\u30a9)"
+    "Great Maccao (\u30c9\u30b9\u30de\u30c3\u30ab\u30a9)"
   ], 
   [
     "\u30c9\u30b9\u30d5\u30a1\u30f3\u30b4", 
@@ -182,6 +250,10 @@ monster_replace_list = [
   [
     "\u30c9\u30b9\u30b2\u30cd\u30dd\u30b9", 
     "Gendrome (\u30c9\u30b9\u30b2\u30cd\u30dd\u30b9)"
+  ], 
+  [
+    "\u30c9\u30b9\u30ae\u30a2\u30ce\u30b9", 
+    "Giadrome (\u30c9\u30b9\u30ae\u30a2\u30ce\u30b9)"
   ], 
   [
     "\u30c9\u30b9\u30ac\u30ec\u30aa\u30b9", 
@@ -193,7 +265,11 @@ monster_replace_list = [
   ], 
   [
     "\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9", 
-    "Dinovaldo (\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
+    "Glavenus (\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
+  ], 
+  [
+    "\u30c7\u30a3\u30a2\u30d6\u30ed\u30b9", 
+    "Diablos (\u30c7\u30a3\u30a2\u30d6\u30ed\u30b9)"
   ], 
   [
     "\u30bb\u30eb\u30ec\u30ae\u30aa\u30b9", 
@@ -217,7 +293,7 @@ monster_replace_list = [
   ], 
   [
     "\u30aa\u30b9\u30c8\u30ac\u30ed\u30a2", 
-    "Osutogaroa (\u30aa\u30b9\u30c8\u30ac\u30ed\u30a2)"
+    "Nakarkos (\u30aa\u30b9\u30c8\u30ac\u30ed\u30a2)"
   ], 
   [
     "\u30a6\u30e9\u30ac\u30f3\u30ad\u30f3", 
@@ -240,6 +316,10 @@ monster_replace_list = [
     "Seltas (\u30a2\u30eb\u30bb\u30eb\u30bf\u30b9)"
   ], 
   [
+    "\u30a2\u30c8\u30e9\u30eb\u30fb\u30ab", 
+    "Atoraru Ka (\u30a2\u30c8\u30e9\u30eb\u30fb\u30ab)"
+  ], 
+  [
     "\u30a2\u30b0\u30ca\u30b3\u30c8\u30eb", 
     "Agnaktor (\u30a2\u30b0\u30ca\u30b3\u30c8\u30eb)"
   ], 
@@ -249,15 +329,19 @@ monster_replace_list = [
   ], 
   [
     "\u98a8\u65ac\u308b\u767d\u5f71", 
-    "White Gale Nargacuga (\u767d\u75be\u98a8\u30ca\u30eb\u30ac\u30af\u30eb\u30ac)"
+    "Silverwind Nargacuga (\u767d\u75be\u98a8\u30ca\u30eb\u30ac\u30af\u30eb\u30ac)"
   ], 
   [
     "\u771f\u306a\u308b\u899a\u9192", 
-    "Golden Thunder Prince Zinogre (\u91d1\u96f7\u516c\u30b8\u30f3\u30aa\u30a6\u30ac)"
+    "Thunderlord Zinogre (\u91d1\u96f7\u516c\u30b8\u30f3\u30aa\u30a6\u30ac)"
+  ], 
+  [
+    "\u4e16\u754c\u6700\u5f37\u5cf0", 
+    "Silver Ridge Gammoth (\u9280\u5dba\u30ac\u30e0\u30fc\u30c8)"
   ], 
   [
     "\u30ea\u30e2\u30bb\u30c8\u30b9", 
-    "Rimosetosu (\u30ea\u30e2\u30bb\u30c8\u30b9)"
+    "Larinoth (\u30ea\u30e2\u30bb\u30c8\u30b9)"
   ], 
   [
     "\u30ea\u30ce\u30d7\u30ed\u30b9", 
@@ -281,11 +365,27 @@ monster_replace_list = [
   ], 
   [
     "\u30e9\u30a4\u30bc\u30af\u30b9", 
-    "Raizekusu (\u30e9\u30a4\u30bc\u30af\u30b9)"
+    "Astalos (\u30e9\u30a4\u30bc\u30af\u30b9)"
+  ], 
+  [
+    "\u30dc\u30eb\u30dc\u30ed\u30b9", 
+    "Barroth (\u30dc\u30eb\u30dc\u30ed\u30b9)"
+  ], 
+  [
+    "\u30d9\u30ea\u30aa\u30ed\u30b9", 
+    "Barioth (\u30d9\u30ea\u30aa\u30ed\u30b9)"
   ], 
   [
     "\u30d6\u30ca\u30cf\u30d6\u30e9", 
     "Bnahabra (\u30d6\u30ca\u30cf\u30d6\u30e9)"
+  ], 
+  [
+    "\u30d0\u30d0\u30b3\u30f3\u30ac", 
+    "Congalala (\u30d0\u30d0\u30b3\u30f3\u30ac)"
+  ], 
+  [
+    "\u30d0\u30b5\u30eb\u30e2\u30b9", 
+    "Basarios (\u30d0\u30b5\u30eb\u30e2\u30b9)"
   ], 
   [
     "\u30c6\u30c4\u30ab\u30d6\u30e9", 
@@ -293,7 +393,7 @@ monster_replace_list = [
   ], 
   [
     "\u30bf\u30de\u30df\u30c4\u30cd", 
-    "Tamamitsune (\u30bf\u30de\u30df\u30c4\u30cd)"
+    "Mizutsune (\u30bf\u30de\u30df\u30c4\u30cd)"
   ], 
   [
     "\u30ba\u30ef\u30ed\u30dd\u30b9", 
@@ -306,6 +406,10 @@ monster_replace_list = [
   [
     "\u30b8\u30f3\u30aa\u30a6\u30ac", 
     "Zinogre (\u30b8\u30f3\u30aa\u30a6\u30ac)"
+  ], 
+  [
+    "\u30b0\u30e9\u30d3\u30e2\u30b9", 
+    "Gravios (\u30b0\u30e9\u30d3\u30e2\u30b9)"
   ], 
   [
     "\u30af\u30f3\u30c1\u30e5\u30a6", 
@@ -352,6 +456,10 @@ monster_replace_list = [
     "Khezu (\u30d5\u30eb\u30d5\u30eb)"
   ], 
   [
+    "\u5927\u96f7\u5149\u866b", 
+    "Great Thunderbug (\u5927\u96f7\u5149\u866b)"
+  ], 
+  [
     "\u30eb\u30c9\u30ed\u30b9", 
     "Ludroth (\u30eb\u30c9\u30ed\u30b9)"
   ], 
@@ -369,11 +477,11 @@ monster_replace_list = [
   ], 
   [
     "\u30e0\u30fc\u30d5\u30a1", 
-    "Mufa (\u30e0\u30fc\u30d5\u30a1)"
+    "Moofah (\u30e0\u30fc\u30d5\u30a1)"
   ], 
   [
     "\u30de\u30c3\u30ab\u30a9", 
-    "Maccau (\u30de\u30c3\u30ab\u30a9)"
+    "Maccao (\u30de\u30c3\u30ab\u30a9)"
   ], 
   [
     "\u30d6\u30e9\u30f3\u30b4", 
@@ -409,7 +517,7 @@ monster_replace_list = [
   ], 
   [
     "\u30ac\u30e0\u30fc\u30c8", 
-    "Gamuto (\u30ac\u30e0\u30fc\u30c8)"
+    "Gammoth (\u30ac\u30e0\u30fc\u30c8)"
   ], 
   [
     "\u30ac\u30df\u30b6\u30df", 
@@ -433,6 +541,10 @@ monster_replace_list = [
   ], 
   [
     "\u9ed2\u8755\u7adc", 
+    "Chaotic Gore Magala (\u6e3e\u6c8c\u306b\u547b\u304f\u30b4\u30a2\u30fb\u30de\u30ac\u30e9)"
+  ], 
+  [
+    "\u9ed2\u8755\u7adc", 
     "Gore Magala (\u30b4\u30a2\u30fb\u30de\u30ac\u30e9)"
   ], 
   [
@@ -441,7 +553,7 @@ monster_replace_list = [
   ], 
   [
     "\u9996\u9cf4\u7adc", 
-    "Rimosetosu (\u30ea\u30e2\u30bb\u30c8\u30b9)"
+    "Larinoth (\u30ea\u30e2\u30bb\u30c8\u30b9)"
   ], 
   [
     "\u98db\u7532\u866b", 
@@ -457,7 +569,7 @@ monster_replace_list = [
   ], 
   [
     "\u96f2\u7f8a\u9e7f", 
-    "Mufa (\u30e0\u30fc\u30d5\u30a1)"
+    "Moofah (\u30e0\u30fc\u30d5\u30a1)"
   ], 
   [
     "\u96ea\u7345\u5b50", 
@@ -468,8 +580,16 @@ monster_replace_list = [
     "Rathian (\u30ea\u30aa\u30ec\u30a4\u30a2)"
   ], 
   [
+    "\u95a3\u87b3\u8782", 
+    "Atoraru Ka (\u30a2\u30c8\u30e9\u30eb\u30fb\u30ab)"
+  ], 
+  [
     "\u9280\u706b\u7adc", 
     "Silver Rathalos (\u30ea\u30aa\u30ec\u30a6\u30b9\u5e0c\u5c11\u7a2e)"
+  ], 
+  [
+    "\u91d1\u7345\u5b50", 
+    "Furious Rajang (\u6fc0\u6602\u3057\u305f\u30e9\u30fc\u30b8\u30e3\u30f3)"
   ], 
   [
     "\u91d1\u7345\u5b50", 
@@ -485,7 +605,7 @@ monster_replace_list = [
   ], 
   [
     "\u8df3\u72d7\u7adc", 
-    "Great Maccau (\u30c9\u30b9\u30de\u30c3\u30ab\u30a9)"
+    "Great Maccao (\u30c9\u30b9\u30de\u30c3\u30ab\u30a9)"
   ], 
   [
     "\u8d64\u7532\u7363", 
@@ -493,15 +613,19 @@ monster_replace_list = [
   ], 
   [
     "\u87f9\u57ce\u58c1", 
-    "Spearbreaker Daimyo Hermitaur (\u77db\u7815\u30c0\u30a4\u30df\u30e7\u30a6\u30b6\u30b6\u30df)"
+    "Stonefist Hermitaur (\u77db\u7815\u30c0\u30a4\u30df\u30e7\u30a6\u30b6\u30b6\u30df)"
   ], 
   [
     "\u8352\u9264\u722a", 
-    "Ruinous Hook Claw Tigrex (\u8352\u9264\u722a\u30c6\u30a3\u30ac\u30ec\u30c3\u30af\u30b9)"
+    "Grimclaw Tigrex (\u8352\u9264\u722a\u30c6\u30a3\u30ac\u30ec\u30c3\u30af\u30b9)"
   ], 
   [
     "\u8349\u98df\u7adc", 
     "Rhenoplos (\u30ea\u30ce\u30d7\u30ed\u30b9)"
+  ], 
+  [
+    "\u8001\u5c71\u9f8d", 
+    "Lao-Shan Lung (\u30e9\u30aa\u30b7\u30e3\u30f3\u30ed\u30f3)"
   ], 
   [
     "\u7ffc\u86c7\u7adc", 
@@ -518,10 +642,6 @@ monster_replace_list = [
   [
     "\u7206\u939a\u7adc", 
     "Uragaan (\u30a6\u30e9\u30ac\u30f3\u30ad\u30f3)"
-  ], 
-  [
-    "\u71fc\u6ec5\u5203", 
-    "Incinerating Blade Dinovaldo (\u71fc\u6ec5\u5203\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
   ], 
   [
     "\u714c\u9ed2\u9f8d", 
@@ -549,7 +669,11 @@ monster_replace_list = [
   ], 
   [
     "\u6ce1\u72d0\u7adc", 
-    "Tamamitsune (\u30bf\u30de\u30df\u30c4\u30cd)"
+    "Mizutsune (\u30bf\u30de\u30df\u30c4\u30cd)"
+  ], 
+  [
+    "\u6c37\u7259\u7adc", 
+    "Barioth (\u30d9\u30ea\u30aa\u30ed\u30b9)"
   ], 
   [
     "\u6c34\u751f\u7363", 
@@ -560,12 +684,28 @@ monster_replace_list = [
     "Gypceros (\u30b2\u30ea\u30e7\u30b9)"
   ], 
   [
+    "\u6843\u6bdb\u7363", 
+    "Congalala (\u30d0\u30d0\u30b3\u30f3\u30ac)"
+  ], 
+  [
+    "\u65ac\u9244\u938c", 
+    "Armor Shredder Shogun Ceanataur (\u93a7\u88c2\u30b7\u30e7\u30a6\u30b0\u30f3\u30ae\u30b6\u30df)"
+  ], 
+  [
+    "\u6050\u66b4\u7adc", 
+    "Savage Deviljho (\u6012\u308a\u55b0\u3089\u3046\u30a4\u30d3\u30eb\u30b8\u30e7\u30fc)"
+  ], 
+  [
     "\u6050\u66b4\u7adc", 
     "Deviljho (\u30a4\u30d3\u30eb\u30b8\u30e7\u30fc)"
   ], 
   [
     "\u5fb9\u7532\u866b", 
     "Seltas (\u30a2\u30eb\u30bb\u30eb\u30bf\u30b9)"
+  ], 
+  [
+    "\u5f71\u8718\u86db", 
+    "Nerscylla (\u30cd\u30eb\u30b9\u30ad\u30e5\u30e9)"
   ], 
   [
     "\u5c3e\u69cc\u7adc", 
@@ -576,16 +716,24 @@ monster_replace_list = [
     "Kecha Wacha (\u30b1\u30c1\u30e3\u30ef\u30c1\u30e3)"
   ], 
   [
+    "\u5929\u5f57\u9f8d", 
+    "Barufaruku (\u30d0\u30eb\u30d5\u30a1\u30eb\u30af)"
+  ], 
+  [
     "\u5929\u5efb\u9f8d", 
     "Shagaru Magala (\u30b7\u30e3\u30ac\u30eb\u30de\u30ac\u30e9)"
   ], 
   [
     "\u5927\u96ea\u4e3b", 
-    "Heavy Snow Lord Lagombi (\u5927\u96ea\u4e3b\u30a6\u30eb\u30af\u30b9\u30b9)"
+    "Snowbaron Lagombi (\u5927\u96ea\u4e3b\u30a6\u30eb\u30af\u30b9\u30b9)"
   ], 
   [
     "\u5782\u76ae\u7adc", 
     "Slagtoth (\u30ba\u30ef\u30ed\u30dd\u30b9)"
+  ], 
+  [
+    "\u571f\u7802\u7adc", 
+    "Barroth (\u30dc\u30eb\u30dc\u30ed\u30b9)"
   ], 
   [
     "\u5343\u5203\u7adc", 
@@ -596,6 +744,10 @@ monster_replace_list = [
     "Zamtrios (\u30b6\u30dc\u30a2\u30b6\u30ae\u30eb)"
   ], 
   [
+    "\u30b3\u30f3\u30ac", 
+    "Conga (\u30b3\u30f3\u30ac)"
+  ], 
+  [
     "\u30b1\u30eb\u30d3", 
     "Kelbi (\u30b1\u30eb\u30d3)"
   ], 
@@ -604,12 +756,16 @@ monster_replace_list = [
     "Kirin (\u30ad\u30ea\u30f3)"
   ], 
   [
+    "\u9ed2\u9f8d", 
+    "Fatalis (\u30df\u30e9\u30dc\u30ec\u30a2\u30b9)"
+  ], 
+  [
     "\u9b3c\u86d9", 
     "Tetsucabra (\u30c6\u30c4\u30ab\u30d6\u30e9)"
   ], 
   [
     "\u9ab8\u9f8d", 
-    "Osutogaroa (\u30aa\u30b9\u30c8\u30ac\u30ed\u30a2)"
+    "Nakarkos (\u30aa\u30b9\u30c8\u30ac\u30ed\u30a2)"
   ], 
   [
     "\u971e\u9f8d", 
@@ -617,11 +773,15 @@ monster_replace_list = [
   ], 
   [
     "\u96fb\u7adc", 
-    "Raizekusu (\u30e9\u30a4\u30bc\u30af\u30b9)"
+    "Astalos (\u30e9\u30a4\u30bc\u30af\u30b9)"
   ], 
   [
     "\u96bb\u773c", 
-    "One-Eyed Yian Garuga (\u96bb\u773c\u30a4\u30e3\u30f3\u30ac\u30eb\u30eb\u30ac)"
+    "Deadeye Yian Garuga (\u96bb\u773c\u30a4\u30e3\u30f3\u30ac\u30eb\u30eb\u30ac)"
+  ], 
+  [
+    "\u93a7\u7adc", 
+    "Gravios (\u30b0\u30e9\u30d3\u30e2\u30b9)"
   ], 
   [
     "\u938c\u87f9", 
@@ -640,8 +800,24 @@ monster_replace_list = [
     "Tigrex (\u30c6\u30a3\u30ac\u30ec\u30c3\u30af\u30b9)"
   ], 
   [
+    "\u89d2\u7adc", 
+    "Diablos (\u30c7\u30a3\u30a2\u30d6\u30ed\u30b9)"
+  ], 
+  [
     "\u8987\u7adc", 
     "Akantor (\u30a2\u30ab\u30e0\u30c8\u30eb\u30e0)"
+  ], 
+  [
+    "\u7d05\u9f8d", 
+    "Crimson Fatalis (\u30df\u30e9\u30dc\u30ec\u30a2\u30b9\uff08\u7d05\u9f8d\uff09)"
+  ], 
+  [
+    "\u7956\u9f8d", 
+    "White Fatalis (\u30df\u30e9\u30dc\u30ec\u30a2\u30b9(\u7956\u9f8d))"
+  ], 
+  [
+    "\u7815\u7adc", 
+    "Raging Brachydios (\u731b\u308a\u7206\u305c\u308b\u30d6\u30e9\u30ad\u30c7\u30a3\u30aa\u30b9)"
   ], 
   [
     "\u7815\u7adc", 
@@ -693,7 +869,7 @@ monster_replace_list = [
   ], 
   [
     "\u65ac\u7adc", 
-    "Dinovaldo (\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
+    "Glavenus (\u30c7\u30a3\u30ce\u30d0\u30eb\u30c9)"
   ], 
   [
     "\u602a\u9ce5", 
@@ -705,19 +881,23 @@ monster_replace_list = [
   ], 
   [
     "\u5de8\u7363", 
-    "Gamuto (\u30ac\u30e0\u30fc\u30c8)"
+    "Gammoth (\u30ac\u30e0\u30fc\u30c8)"
   ], 
   [
     "\u5d50\u9f8d", 
-    "Amatsumagatsuchi (\u30a2\u30de\u30c4\u30de\u30ac\u30c4\u30c1)"
+    "Amatsu (\u30a2\u30de\u30c4\u30de\u30ac\u30c4\u30c1)"
   ], 
   [
     "\u5d29\u7adc", 
     "Ukanlos (\u30a6\u30ab\u30e0\u30eb\u30d0\u30b9)"
   ], 
   [
+    "\u5ca9\u7adc", 
+    "Basarios (\u30d0\u30b5\u30eb\u30e2\u30b9)"
+  ], 
+  [
     "\u5b9d\u7e8f", 
-    "Treasure Clad Uragaan (\u5b9d\u7e8f\u30a6\u30e9\u30ac\u30f3\u30ad\u30f3)"
+    "Crystalbeard Uragaan (\u5b9d\u7e8f\u30a6\u30e9\u30ac\u30f3\u30ad\u30f3)"
   ], 
   [
     "\u5927\u732a", 
@@ -725,7 +905,7 @@ monster_replace_list = [
   ], 
   [
     "\u591c\u9ce5", 
-    "Hororohoruru (\u30db\u30ed\u30ed\u30db\u30eb\u30eb)"
+    "Malfestio (\u30db\u30ed\u30ed\u30db\u30eb\u30eb)"
   ], 
   [
     "\u4e38\u9ce5", 
@@ -739,4 +919,4 @@ monster_replace_list = [
     "\u30dd\u30dd", 
     "Popo (\u30dd\u30dd)"
   ]
-]
+];
