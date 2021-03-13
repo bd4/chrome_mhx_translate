@@ -2,7 +2,7 @@
   "name": "MHX Wiki Translator",
   "short_name": "MHX-Wiki-Tr",
   "description": "Translate armor skill names and other data on Japanese language wikis for Monster Hunter Cross.",
-  "version": "0.6",
+  "version": "0.7",
   "homepage_url": "https://github.com/bd4/chrome_mhx_translate",
   "content_scripts": [
     {

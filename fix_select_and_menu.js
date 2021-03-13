@@ -6,6 +6,10 @@
 // access the values and remove the offending handlers.
 var script = document.createElement('script');
 script.type = "text/javascript";
-script.innerHTML = "document.body.onselectstart = null; "
-                 + "document.body.oncontextmenu = null;";
+script.innerHTML = 
+    "document.body.onselectstart = null; "
+  + "document.body.oncontextmenu = null; "
+  + "document.getElementById('data_container').onmousedown=null; "
+  + "document.getElementById('data_container').onselectstart=null; "
+  + "document.getElementById('data_container').style=null; ";
 document.body.appendChild(script);
