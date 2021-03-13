@@ -1,9 +1,11 @@
 # MHX Wiki Translater
 
 Simple chrome extension to translate certain data on Japanese Monster Hunter
-Cross (MHX) wiki sites, including:
+wiki sites, including:
 
 * [wiki.mhxg.org](http://wiki.mhxg.org/)
+* [wiki.mh4g.org](http://wiki.mh4g.org/)
+* [mhwg.org](http://mhwg.org/)
 * [armor set search](http://mhx.wiki-db.com/sim/)
 * [game-cap.com](http://game-cap.com/)
 * [mhx-wiki.com](http://mhx-wiki.com/)

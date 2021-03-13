@@ -2,14 +2,16 @@
   "name": "MHX Wiki Translator",
   "short_name": "MHX-Wiki-Tr",
   "description": "Translate armor skill names and other data on Japanese language wikis for Monster Hunter Cross.",
-  "version": "0.5",
+  "version": "0.6",
   "homepage_url": "https://github.com/bd4/chrome_mhx_translate",
   "content_scripts": [
     {
       "matches": ["http://wiki.mhxg.org/*",
+                  "http://wiki.mh4g.org/*",
                   "http://game-cap.com/*",
                   "http://mhx-wiki.com/*",
-                  "http://mhx.wiki-db.com/*"],
+                  "http://mhx.wiki-db.com/*",
+                  "http://mhwg.org/*"],
       "css": ["override.css"],
       "js": ["mhx_stree_replace_list.js",
              "mhx_skill_replace_list.js",
